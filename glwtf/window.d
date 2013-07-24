@@ -182,7 +182,7 @@ class Window : BaseGLFWEventHandler {
         glfwSwapBuffers(window);
     }
 
-    @property void should_close(int value) {
+    @property void should_close(bool value) {
         glfwSetWindowShouldClose(window, value);
     }
 
